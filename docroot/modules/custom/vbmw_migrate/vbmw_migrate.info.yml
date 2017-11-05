@@ -1,0 +1,8 @@
+type: module
+name: Vintage BMW D6 migration
+description: 'Migrates all of the content from the VBMWMO D6 site.'
+package: VBMWMO
+core: 8.x
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
