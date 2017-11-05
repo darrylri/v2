@@ -1,0 +1,15 @@
+uuid: 706297f4-92c4-418a-8034-2f41fc7c31d9
+langcode: en
+status: true
+dependencies: {  }
+name: leftbar_image_thumb
+label: leftbar_image_thumb
+effects:
+  449cdb71-5352-47b7-afcb-0ce296945ea5:
+    uuid: 449cdb71-5352-47b7-afcb-0ce296945ea5
+    id: image_scale
+    weight: 0
+    data:
+      width: 140
+      height: 140
+      upscale: false

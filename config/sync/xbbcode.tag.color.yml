@@ -1,0 +1,18 @@
+uuid: 0008211e-6724-408e-8c96-b6fb697b7a25
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - xbbcode_standard
+_core:
+  default_config_hash: vV3gC9G-SBe6JzIGF51_tqbd5hrwfYbGxi576kJaFps
+id: color
+label: Color
+description: 'Sets the font color.'
+sample: '[{{ name }}=red]C[/{{ name }}][{{ name }}=orange]o[/{{ name }}][{{ name }}=#080]l[/{{ name }}][{{ name }}=green]o[/{{ name }}][{{ name }}=#0000ff]r[/{{ name }}]'
+name: color
+attached: {  }
+editable: false
+template_code: '<span style="color:{{ tag.option|replace({";":""}) }}">{{ tag.content }}</span>'
+template_file: null

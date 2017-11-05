@@ -1,0 +1,9 @@
+uuid: 3f6ef470-b03d-402f-9ba5-7db16f945add
+langcode: en
+status: true
+dependencies: {  }
+name: Forums
+vid: forums
+description: ''
+hierarchy: 1
+weight: -10

@@ -1,0 +1,9 @@
+uuid: cdcb99e6-3409-464c-897f-5ea3c657064b
+langcode: en
+status: true
+dependencies: {  }
+id: editor_news
+label: 'Editor, News'
+weight: 8
+is_admin: null
+permissions: {  }

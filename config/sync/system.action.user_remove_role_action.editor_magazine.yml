@@ -1,0 +1,14 @@
+uuid: c46bcdab-0229-4561-a044-6dac6e8143ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_magazine
+  module:
+    - user
+id: user_remove_role_action.editor_magazine
+label: 'Remove the Editor, Magazine role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor_magazine

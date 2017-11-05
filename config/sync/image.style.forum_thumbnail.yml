@@ -1,0 +1,14 @@
+uuid: 1e9b26a7-51dd-4f56-bff2-ee676dfb3242
+langcode: en
+status: true
+dependencies: {  }
+name: forum_thumbnail
+label: forum_thumbnail
+effects:
+  ae066d5e-9026-4bc2-afcf-267ba6c635aa:
+    uuid: ae066d5e-9026-4bc2-afcf-267ba6c635aa
+    id: image_scale_and_crop
+    weight: 0
+    data:
+      width: 120
+      height: 120

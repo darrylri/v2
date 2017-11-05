@@ -1,0 +1,18 @@
+uuid: afeb7073-ed7b-46a5-8805-733f1db6d1d1
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - xbbcode_standard
+_core:
+  default_config_hash: 8HVoOjxtKbUFcq_T0eG-juwD5Bch_PYQR8sizLzEo3M
+id: strike
+label: Strike-through
+description: 'Strikes out text.'
+sample: '[{{ name }}]Deleted[/{{ name }}]'
+name: s
+attached: {  }
+editable: false
+template_code: '<s>{{ tag.content }}</s>'
+template_file: null

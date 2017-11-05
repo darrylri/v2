@@ -1,0 +1,9 @@
+uuid: 14cc513b-2632-408b-9dbb-e076da22c685
+langcode: en
+status: true
+dependencies: {  }
+id: editor_events
+label: 'Editor, Events'
+weight: 7
+is_admin: null
+permissions: {  }

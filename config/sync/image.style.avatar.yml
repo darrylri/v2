@@ -1,0 +1,14 @@
+uuid: 17685661-f96e-4e44-a9b0-53fe5c4122d2
+langcode: en
+status: true
+dependencies: {  }
+name: avatar
+label: avatar
+effects:
+  f981d21b-e036-4380-a0ae-784e5d5e06e5:
+    uuid: f981d21b-e036-4380-a0ae-784e5d5e06e5
+    id: image_resize
+    weight: 0
+    data:
+      width: 85
+      height: 85

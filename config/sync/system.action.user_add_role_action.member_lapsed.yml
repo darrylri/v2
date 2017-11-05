@@ -1,0 +1,14 @@
+uuid: 6bbd3451-2ae0-4f73-8c3b-5478885f99c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_lapsed
+  module:
+    - user
+id: user_add_role_action.member_lapsed
+label: 'Add the Member, Lapsed role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: member_lapsed

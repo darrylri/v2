@@ -1,0 +1,14 @@
+uuid: e50ec5ac-08a2-4791-8c42-feed78c5512e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_non
+  module:
+    - user
+id: user_add_role_action.member_non
+label: 'Add the Member, NON role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: member_non

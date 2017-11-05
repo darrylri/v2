@@ -1,0 +1,14 @@
+uuid: 674c1ec4-057d-429b-bb90-cbdc339a3f46
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_galleries
+  module:
+    - user
+id: user_remove_role_action.editor_galleries
+label: 'Remove the Editor, Galleries role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor_galleries

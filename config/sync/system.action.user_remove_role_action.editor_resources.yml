@@ -1,0 +1,14 @@
+uuid: 93944745-2056-4167-9ec5-3ca0f9b336ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_resources
+  module:
+    - user
+id: user_remove_role_action.editor_resources
+label: 'Remove the Editor, Links and Resources role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor_resources

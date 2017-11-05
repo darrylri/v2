@@ -1,0 +1,9 @@
+uuid: 6f7e60cc-55e1-4230-82d7-71eac1600ddd
+langcode: en
+status: true
+dependencies: {  }
+id: editor_galleries
+label: 'Editor, Galleries'
+weight: 10
+is_admin: null
+permissions: {  }

@@ -1,0 +1,19 @@
+uuid: 4af89779-b2c0-4c8c-8111-c89ad2c72f0a
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - vbmw_migrate
+_core:
+  default_config_hash: pxETiBHSXDLZO8KBhyeuqpCAlRT8rFRYzuRL9IC3tUw
+id: vbmw_migrate
+label: VintageBMW
+description: 'VintageBMW D6 site migration'
+source_type: 'Drupal 6'
+module: null
+shared_configuration:
+  source:
+    key: migrate
+    constants:
+      d6_files_subpath: d6_files

@@ -1,0 +1,9 @@
+uuid: 0009e53b-5df1-450c-a380-aa4870b035c2
+langcode: en
+status: true
+dependencies: {  }
+id: editor_magazine
+label: 'Editor, Magazine'
+weight: 12
+is_admin: null
+permissions: {  }

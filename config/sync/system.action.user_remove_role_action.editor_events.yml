@@ -1,0 +1,14 @@
+uuid: 9fe12794-66d6-44d3-a05e-77937cdee6c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_events
+  module:
+    - user
+id: user_remove_role_action.editor_events
+label: 'Remove the Editor, Events role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor_events

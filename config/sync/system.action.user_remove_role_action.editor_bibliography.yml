@@ -1,0 +1,14 @@
+uuid: 3d9a80ab-1c89-4d69-add2-fb672533f492
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_bibliography
+  module:
+    - user
+id: user_remove_role_action.editor_bibliography
+label: 'Remove the Editor, Bibliography role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor_bibliography

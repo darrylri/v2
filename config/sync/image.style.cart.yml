@@ -1,0 +1,15 @@
+uuid: dbd99f0b-a92f-4595-99aa-65f26364e59d
+langcode: en
+status: true
+dependencies: {  }
+name: cart
+label: cart
+effects:
+  c898fbef-33c3-4323-a34b-eaced107661b:
+    uuid: c898fbef-33c3-4323-a34b-eaced107661b
+    id: image_scale
+    weight: 0
+    data:
+      upscale: false
+      width: 50
+      height: 50

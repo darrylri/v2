@@ -1,0 +1,15 @@
+uuid: dadb6db2-d351-4dbd-a33d-a6fbfd0d7de1
+langcode: en
+status: true
+dependencies: {  }
+name: product
+label: product
+effects:
+  1ba60509-4148-4874-ad68-eeb7afbacdb0:
+    uuid: 1ba60509-4148-4874-ad68-eeb7afbacdb0
+    id: image_scale
+    weight: 0
+    data:
+      width: 240
+      height: 240
+      upscale: false

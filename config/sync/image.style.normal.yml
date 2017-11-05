@@ -1,0 +1,15 @@
+uuid: a8cfd1a8-f3ce-4430-a93e-33acb15ab04c
+langcode: en
+status: true
+dependencies: {  }
+name: normal
+label: normal
+effects:
+  f909496b-0431-41c6-836b-7f01b5d6dd66:
+    uuid: f909496b-0431-41c6-836b-7f01b5d6dd66
+    id: image_scale
+    weight: 0
+    data:
+      width: 600
+      height: 600
+      upscale: true

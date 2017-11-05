@@ -1,0 +1,9 @@
+uuid: 5b177d8c-32dd-4c43-83d5-ce4354a139f2
+langcode: en
+status: true
+dependencies: {  }
+id: forum_moderator
+label: 'Forum Moderator'
+weight: 5
+is_admin: null
+permissions: {  }

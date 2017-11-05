@@ -1,0 +1,9 @@
+uuid: 06471ee1-0059-4e79-bfd1-c74ee57e401a
+langcode: en
+status: true
+dependencies: {  }
+id: membership_administrator
+label: 'Membership Administrator'
+weight: 11
+is_admin: null
+permissions: {  }

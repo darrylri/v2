@@ -1,0 +1,9 @@
+uuid: 352e8f8e-414f-41e4-82b9-63eb1a6c2ddc
+langcode: en
+status: true
+dependencies: {  }
+name: People
+vid: people
+description: 'A list of tags that can be applied to the People content type to categorize them for different displays.'
+hierarchy: 1
+weight: 0

@@ -1,0 +1,9 @@
+uuid: d0346838-805c-41de-bdcd-7c6e886ca7cd
+langcode: en
+status: true
+dependencies: {  }
+name: Resources
+vid: resources
+description: 'Tags to apply to the vintage links and resources.'
+hierarchy: 0
+weight: 0

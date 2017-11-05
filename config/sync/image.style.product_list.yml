@@ -1,0 +1,15 @@
+uuid: 7a043db0-743d-4bb8-993f-8aa154708296
+langcode: en
+status: true
+dependencies: {  }
+name: product_list
+label: product_list
+effects:
+  436a8dc7-8ccd-45ea-a6da-68d0246ae9d6:
+    uuid: 436a8dc7-8ccd-45ea-a6da-68d0246ae9d6
+    id: image_scale
+    weight: 0
+    data:
+      width: 200
+      height: 200
+      upscale: false

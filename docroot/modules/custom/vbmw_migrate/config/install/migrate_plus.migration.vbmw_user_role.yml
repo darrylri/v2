@@ -27,10 +27,7 @@ process:
         'Store Administrator':          store_administrator
         'Forum Admin':                  forum_administrator
         'Forum Moderator':              forum_moderator
-      default_value: ''
-    -
-      plugin: skip_on_empty
-      method: row
+      default_value:                    authenticated
   label:
     -
       plugin: static_map
@@ -52,10 +49,7 @@ process:
         'Store Administrator':          'Store Administrator'
         'Forum Admin':                  'Forum Administrator'
         'Forum Moderator':              'Forum Moderator'
-      default_value:            ''
-    -
-      plugin: skip_on_empty
-      method: row
+      default_value:                    '@name'
 
 destination:
   plugin: entity:user_role

@@ -1,0 +1,9 @@
+uuid: 949089c9-2c3a-4e88-a89b-3ec35d05b369
+langcode: en
+status: true
+dependencies: {  }
+id: member_lapsed
+label: 'Member, Lapsed'
+weight: 6
+is_admin: null
+permissions: {  }

@@ -1,0 +1,18 @@
+uuid: 005c2cc1-79bb-42f2-9746-85c163d7fe15
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - xbbcode_standard
+_core:
+  default_config_hash: jSnYzRFb1l9dRgZElKnhkKxWjYr-zEKIXl39UDWR3To
+id: link
+label: Hyperlink
+description: 'Creates a hyperlink.'
+sample: '[{{ name }}=http://drupal.org/]Drupal[/{{ name }}]'
+name: url
+attached: {  }
+editable: false
+template_code: '<a href="{{ tag.option }}" title="{{ tag.option }}">{{ tag.content }}</a>'
+template_file: null

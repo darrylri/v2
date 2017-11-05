@@ -1,3 +1,18 @@
+8.x-3.x-dev
+-----------
+
+This is the first full Drupal 8 port.
+
+ - The procedural API is gone. The hook is replaced by an annotated plugin type,
+   and the custom tag table with a config entity type.
+ - Custom tags use Twig templates instead of HTML and PHP code.
+ - Removed all special tag properties (nocode, plain, selfclosing).
+ - Rewrote the parsing algorithm, and used the prepare() phase of the
+   filter. Tags are now validated before any other filters are applied, and
+   attributes as well as tag.source bypass all text filtering.
+   Tag content is now rendered on demand only if the tag's renderer uses it.
+ - The module now contains unit tests.
+
 2012-02-19
 
  - Repository finally moved to drupal.org

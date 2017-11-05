@@ -1,0 +1,14 @@
+uuid: 67f7a516-dca0-4c94-9b69-b86ee3007b70
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_current
+  module:
+    - user
+id: user_remove_role_action.member_current
+label: 'Remove the Member, Current role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: member_current

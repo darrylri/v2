@@ -1,0 +1,9 @@
+uuid: f21f5e77-87a6-4040-aaf5-9550fb8b2752
+langcode: en
+status: true
+dependencies: {  }
+id: member_non
+label: 'Member, NON'
+weight: 14
+is_admin: null
+permissions: {  }

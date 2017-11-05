@@ -1,0 +1,9 @@
+uuid: 8a6db243-6417-4d5f-b2ee-490c1df577f2
+langcode: en
+status: true
+dependencies: {  }
+id: editor_bibliography
+label: 'Editor, Bibliography'
+weight: 15
+is_admin: null
+permissions: {  }

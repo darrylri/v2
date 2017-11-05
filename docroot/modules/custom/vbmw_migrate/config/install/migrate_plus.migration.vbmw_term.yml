@@ -11,7 +11,7 @@ process:
 #  tid: tid
   vid:
     plugin: migration_lookup
-    migration: d6_taxonomy_vocabulary
+    migration: vbmw_vocabulary
     source: vid
   name: name
   description: description
@@ -24,7 +24,7 @@ process:
       source: parent
     -
       plugin: migration_lookup
-      migration: d6_taxonomy_term
+      migration: vbmw_term
   parent:
     plugin: default_value
     default_value: 0

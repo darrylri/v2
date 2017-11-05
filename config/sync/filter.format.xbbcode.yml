@@ -1,0 +1,42 @@
+uuid: ed0ed324-e17c-4ec5-8799-33baf5dd548b
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - xbbcode
+  module:
+    - xbbcode
+_core:
+  default_config_hash: OYHlmdQ5dma1IbzXtjmNf7qdIdQCfGby7K1Kr23vCbs
+name: BBCode
+format: xbbcode
+weight: -5
+filters:
+  filter_html_escape:
+    id: filter_html_escape
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  xbbcode:
+    id: xbbcode
+    provider: xbbcode
+    status: true
+    weight: 1
+    settings:
+      linebreaks: true
+      tags: ''
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 2
+    settings:
+      filter_url_length: 72
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 3
+    settings: {  }

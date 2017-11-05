@@ -1,0 +1,13 @@
+uuid: 94bd1f56-c4a8-4f18-9289-3d3f4352ee69
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 'Remove content from front page'
+type: node
+plugin: node_unpromote_action
+configuration: {  }

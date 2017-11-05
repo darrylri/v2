@@ -1,0 +1,14 @@
+uuid: f7cc30f0-ccb6-45b2-8fca-2cea9f79db11
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_galleries
+  module:
+    - user
+id: user_add_role_action.editor_galleries
+label: 'Add the Editor, Galleries role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: editor_galleries

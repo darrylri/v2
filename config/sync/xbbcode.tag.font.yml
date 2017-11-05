@@ -1,0 +1,18 @@
+uuid: 053c5522-7d59-4321-a3e5-3cf0b1d78e5b
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - xbbcode_standard
+_core:
+  default_config_hash: lbxNL3qwkRi1DWtwlywbzhjxCXG5Q-YaQ58L5fNbwOk
+id: font
+label: 'Font face'
+description: 'Change the font'
+sample: '[{{ name }}=serif]Serif font[/{{ name }}]'
+name: font
+attached: {  }
+editable: false
+template_code: '<span style="font-family:{{ tag.option|replace({";":""}) }}">{{ tag.content }}</span>'
+template_file: null

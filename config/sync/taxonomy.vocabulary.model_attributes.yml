@@ -1,0 +1,9 @@
+uuid: 7311a484-4008-4bbd-a35b-74b959e5522a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Model Attributes'
+vid: model_attributes
+description: ''
+hierarchy: 1
+weight: 0

@@ -1,0 +1,14 @@
+uuid: f7618c08-016e-425a-baa5-0af8268cf113
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_non
+  module:
+    - user
+id: user_remove_role_action.member_non
+label: 'Remove the Member, NON role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: member_non

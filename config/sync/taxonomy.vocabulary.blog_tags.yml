@@ -1,0 +1,9 @@
+uuid: 5922c514-14ac-497e-970f-fe79c3310392
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blog Tags'
+vid: blog_tags
+description: 'Tags for blog posts'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,18 @@
+uuid: 138e71cf-f40b-449c-a0d4-142dd71dcec0
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - xbbcode_standard
+_core:
+  default_config_hash: _rnbzmjnmgnz4DqI1OlC5HzsW0CsuoEfS17Cz5LisYY
+id: list
+label: List
+description: 'Inserts a list.'
+sample: "[{{ name }}=lower-roman]\n  [*] One fish\n  [*] Two fish\n[/{{ name }}]\n"
+name: list
+attached: {  }
+editable: false
+template_code: null
+template_file: '@xbbcode_standard/list.html.twig'

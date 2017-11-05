@@ -1,0 +1,9 @@
+uuid: 8f19980a-aea5-49dd-812a-5c98050266eb
+langcode: en
+status: true
+dependencies: {  }
+id: store_administrator
+label: 'Store Administrator'
+weight: 13
+is_admin: null
+permissions: {  }

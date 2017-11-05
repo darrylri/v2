@@ -1,0 +1,14 @@
+uuid: 3e3c2ba6-6c8e-4497-8235-2bf16404efe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_current
+  module:
+    - user
+id: user_add_role_action.member_current
+label: 'Add the Member, Current role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: member_current

@@ -1,0 +1,9 @@
+uuid: 4f4654fe-1631-4571-937d-738dfff89d8b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Rallies and Events'
+vid: rallies_and_events
+description: ''
+hierarchy: 1
+weight: 0

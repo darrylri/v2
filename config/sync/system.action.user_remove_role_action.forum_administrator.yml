@@ -1,0 +1,14 @@
+uuid: 94d58daf-bf7d-4141-aebd-eba7ffeecddc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.forum_administrator
+  module:
+    - user
+id: user_remove_role_action.forum_administrator
+label: 'Remove the Forum Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: forum_administrator

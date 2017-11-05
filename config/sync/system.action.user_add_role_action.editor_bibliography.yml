@@ -1,0 +1,14 @@
+uuid: 20bb2222-e204-4d55-bc04-201879cdb409
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_bibliography
+  module:
+    - user
+id: user_add_role_action.editor_bibliography
+label: 'Add the Editor, Bibliography role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: editor_bibliography

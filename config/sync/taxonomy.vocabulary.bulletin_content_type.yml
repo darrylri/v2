@@ -1,0 +1,9 @@
+uuid: b0427f66-c6e1-4f89-8b38-507b46a9cb28
+langcode: en
+status: true
+dependencies: {  }
+name: 'Bulletin Content Type'
+vid: bulletin_content_type
+description: ''
+hierarchy: 0
+weight: 0

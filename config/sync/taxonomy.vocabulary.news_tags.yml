@@ -1,0 +1,9 @@
+uuid: fb29a231-893a-4502-9abe-c2d49e48b314
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Tags'
+vid: news_tags
+description: 'Select one or more of these to categorize news stories.  '
+hierarchy: 1
+weight: 0

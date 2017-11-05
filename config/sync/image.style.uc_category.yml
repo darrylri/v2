@@ -1,0 +1,15 @@
+uuid: 66a2ca4f-dd7d-4767-99a6-f18b4271eb5e
+langcode: en
+status: true
+dependencies: {  }
+name: uc_category
+label: uc_category
+effects:
+  e6f87795-602f-4392-9b89-7d5aa63c64aa:
+    uuid: e6f87795-602f-4392-9b89-7d5aa63c64aa
+    id: image_scale
+    weight: 0
+    data:
+      width: 200
+      height: 200
+      upscale: false

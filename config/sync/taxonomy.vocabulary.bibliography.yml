@@ -1,0 +1,9 @@
+uuid: a493b93e-34d6-44de-b9ab-4621d5917396
+langcode: en
+status: true
+dependencies: {  }
+name: Bibliography
+vid: bibliography
+description: 'Tags for book reviews.'
+hierarchy: 0
+weight: 0

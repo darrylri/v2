@@ -1,0 +1,9 @@
+uuid: 2bcb0288-8aed-4a59-a913-61ade38ff860
+langcode: en
+status: true
+dependencies: {  }
+id: editor_resources
+label: 'Editor, Links and Resources'
+weight: 9
+is_admin: null
+permissions: {  }

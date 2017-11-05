@@ -1,0 +1,9 @@
+uuid: c05cd083-7fd5-404b-9115-3f27bac66e14
+langcode: en
+status: true
+dependencies: {  }
+name: 'VBMWMO Store Catalog'
+vid: vbmwmo_store_catalog
+description: 'Welcome to the Vintage BMW Motorcycle Owners club store.  Browse through our logo merchandise in the categories below, pick up some missing back issues or <b>join the club or renew your membership</b>!'
+hierarchy: 1
+weight: 0

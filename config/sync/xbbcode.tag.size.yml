@@ -1,0 +1,18 @@
+uuid: 5019d65f-abbe-40b1-97c9-249ce173308d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - xbbcode_standard
+_core:
+  default_config_hash: 5riA-akSQ2X9Yn_yBnWmU6KI3LHHmzQ27RP-npoHanM
+id: size
+label: 'Font size'
+description: 'Sets the font size.'
+sample: '[{{ name }}=0.75em]Smaller text[/{{ name }}]'
+name: size
+attached: {  }
+editable: false
+template_code: '<span style="font-size:{{ tag.option|replace({";":""}) }}">{{ tag.content }}</span>'
+template_file: null

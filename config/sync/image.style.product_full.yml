@@ -1,0 +1,7 @@
+uuid: f9545376-59e0-4d8e-9c2b-5c5f8bcbe7ac
+langcode: en
+status: true
+dependencies: {  }
+name: product_full
+label: product_full
+effects: {  }

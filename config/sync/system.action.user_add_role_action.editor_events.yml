@@ -1,0 +1,14 @@
+uuid: 39ffe842-079f-4b86-8337-2927cfa7fd6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_events
+  module:
+    - user
+id: user_add_role_action.editor_events
+label: 'Add the Editor, Events role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: editor_events
