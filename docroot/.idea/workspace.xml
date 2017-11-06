@@ -74,11 +74,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="migrate_plus.migration.vbmw_imagecache_presets.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="migrate_plus.migration.vbmw_imagecache_presets.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_imagecache_presets.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d6_file.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/file/migration_templates/d6_file.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migrate_plus.migration.vbmw_file.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_file.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,6 +110,7 @@
     <findStrings>
       <find>d6_taxonomy_vocabulary</find>
       <find>d6_taxonomy_term</find>
+      <find>source_base_path</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -99,6 +120,7 @@
         <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_user_role.yml" />
         <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_term.yml" />
         <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_imagecache_presets.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_file.yml" />
       </list>
     </option>
   </component>
@@ -110,7 +132,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1511" />
+    <option name="x" value="-2329" />
     <option name="y" value="-2130" />
     <option name="width" value="2200" />
     <option name="height" value="2116" />
@@ -153,88 +175,15 @@
               <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="file" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
               <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="file" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="migration_templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="process" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="process" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="d6" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="d6" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
@@ -339,15 +288,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509896665486</updated>
-      <workItem from="1509896669333" duration="6067000" />
+      <workItem from="1509896669333" duration="8218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6067000" />
+    <option name="totallyTimeSpent" value="8218000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5351" y="-2130" width="2200" height="2116" extended-state="0" />
+    <frame x="-2329" y="-2130" width="2200" height="2116" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33255377" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -465,10 +414,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/file/migration_templates/d6_file.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_imagecache_presets.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_file.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
