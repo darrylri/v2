@@ -1,0 +1,54 @@
+uuid: f04af7ac-fbdf-4d3f-b112-5329dff242ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.discussion_settings.field_general_location
+    - field.field.profile.discussion_settings.field_interests
+    - field.field.profile.discussion_settings.field_occupation
+    - field.field.profile.discussion_settings.field_personal_website
+    - profile.type.discussion_settings
+  module:
+    - link
+id: profile.discussion_settings.default
+targetEntityType: profile
+bundle: discussion_settings
+mode: default
+content:
+  field_general_location:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_interests:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_occupation:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_personal_website:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

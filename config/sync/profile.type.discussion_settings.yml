@@ -1,0 +1,28 @@
+uuid: 26a69134-3b7c-446d-9c9a-20ee9cc0cebb
+langcode: en
+status: true
+dependencies: {  }
+id: discussion_settings
+label: 'Discussion Settings'
+registration: true
+multiple: false
+roles:
+  authenticated: authenticated
+  administrator: '0'
+  member_current: '0'
+  site_administrator: '0'
+  forum_moderator: '0'
+  member_lapsed: '0'
+  editor_events: '0'
+  editor_news: '0'
+  editor_resources: '0'
+  editor_galleries: '0'
+  membership_administrator: '0'
+  editor_magazine: '0'
+  store_administrator: '0'
+  member_non: '0'
+  editor_bibliography: '0'
+  forum_administrator: '0'
+weight: 0
+use_revisions: false
+description: ''

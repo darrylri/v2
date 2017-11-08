@@ -1,0 +1,19 @@
+uuid: 95b5cfec-4bc1-400c-a16a-2cf7bb0d53a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_interests
+    - profile.type.discussion_settings
+id: profile.discussion_settings.field_interests
+field_name: field_interests
+entity_type: profile
+bundle: discussion_settings
+label: Interests
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,48 +1,48 @@
-uuid: 13b082ea-b3a0-4f7e-842d-3c064a176290
+uuid: da2e20f9-e02d-4ccc-a23e-ee54b9b5a962
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: E7vgNVRm4ATI7dbNJfO3QhJtgUnpYOOOOThw5YLkWJ0
-id: vbmw_file
+  default_config_hash: xbD3FWLeb-pd-K94aj6iIbEOQWNqx8dmYAktVTwNKPU
+id: vbmw_user_picture_file
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags:
   - 'Drupal 6'
 migration_group: vbmw_migrate
-label: 'Public files'
+label: 'User pictures'
 source:
-  plugin: d6_file
+  plugin: d6_user_picture_file
   constants:
+    is_public: true
     source_base_path: /var/www/docroot/sites/default/files/d6_files
 process:
   filename: filename
+  uid: uid
   source_full_path:
     -
       plugin: concat
       delimiter: /
       source:
         - constants/source_base_path
-        - filepath
+        - picture
     -
       plugin: urlencode
   destination_full_path:
     plugin: file_uri
     source:
-      - filepath
+      - picture
       - file_directory_path
       - temp_directory_path
-      - is_public
+      - constants/is_public
   uri:
     plugin: file_copy
     source:
       - '@source_full_path'
       - '@destination_full_path'
-  filemime: filemime
-  status: status
-  changed: timestamp
-  uid: uid
 destination:
   plugin: 'entity:file'
-migration_dependencies: null
+migration_dependencies:
+  optional:
+    - vbmw_file

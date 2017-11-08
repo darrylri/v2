@@ -1,0 +1,25 @@
+id: vbmw_profile_values
+label: Profile values
+class: Drupal\user\Plugin\migrate\ProfileValues
+migration_group: vbmw_migrate
+migration_tags:
+  - Drupal 6
+source:
+  plugin: d6_profile_field_values
+  constants:
+    bundle: 'discussion_settings'
+    type: 'profile'
+process:
+  uid: uid
+  type: 'constants/bundle'
+  field_general_location: user_from
+  field_personal_website:
+    plugin: d6_build_link
+    url: user_website
+  field_occupation: user_occ
+  field_interests: user_interests
+destination:
+  plugin: entity:profile
+migration_dependencies:
+  required:
+    - vbmw_user

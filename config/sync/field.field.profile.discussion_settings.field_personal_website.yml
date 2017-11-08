@@ -1,0 +1,23 @@
+uuid: 312a1cb9-5ab7-4565-9437-c96cda69df37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_personal_website
+    - profile.type.discussion_settings
+  module:
+    - link
+id: profile.discussion_settings.field_personal_website
+field_name: field_personal_website
+entity_type: profile
+bundle: discussion_settings
+label: 'Personal Website'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

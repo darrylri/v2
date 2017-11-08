@@ -1,0 +1,19 @@
+uuid: 9176b4ba-d40f-46d2-ba55-50de4fc62a5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_occupation
+    - profile.type.discussion_settings
+id: profile.discussion_settings.field_occupation
+field_name: field_occupation
+entity_type: profile
+bundle: discussion_settings
+label: Occupation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

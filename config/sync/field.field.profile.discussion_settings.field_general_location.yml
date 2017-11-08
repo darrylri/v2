@@ -1,0 +1,19 @@
+uuid: f4662ce8-c04a-4512-99ab-5ef418ee676c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_general_location
+    - profile.type.discussion_settings
+id: profile.discussion_settings.field_general_location
+field_name: field_general_location
+entity_type: profile
+bundle: discussion_settings
+label: 'General Location'
+description: 'By giving a general location, other users may be able to give more specific advice in response to your questions and posts.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

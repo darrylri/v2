@@ -24,38 +24,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="migrate_plus.migration.vbmw_filter_format.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_filter_format.yml">
+      <file leaf-file-name="migrate_plus.migration.vbmw_profile_values.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_profile_values.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="migrate_plus.migration.vbmw_user_role.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_user_role.yml">
+      <file leaf-file-name="BuildLink.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/src/Plugin/migrate/process/d6/BuildLink.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="895">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="migrate_plus.migration.vbmw_vocabulary.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_vocabulary.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageCachePreset.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/modules/image/src/Plugin/migrate/source/d6/ImageCachePreset.php">
+      <file leaf-file-name="ProfileFieldValues.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/user/src/Plugin/migrate/source/d6/ProfileFieldValues.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -64,41 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="d6_imagecache_presets.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/modules/image/migration_templates/d6_imagecache_presets.yml">
+      <file leaf-file-name="Debug.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/src/Plugin/migrate/process/d6/Debug.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="migrate_plus.migration.vbmw_imagecache_presets.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_imagecache_presets.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="d6_file.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/modules/file/migration_templates/d6_file.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="migrate_plus.migration.vbmw_file.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_file.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,6 +71,7 @@
       <find>d6_taxonomy_vocabulary</find>
       <find>d6_taxonomy_term</find>
       <find>source_base_path</find>
+      <find>d6_user_picture_file</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -121,6 +82,11 @@
         <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_term.yml" />
         <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_imagecache_presets.yml" />
         <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_file.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_user_picture_file.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_user.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/src/Plugin/migrate/process/d6/Debug.php" />
+        <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_profile_values.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/vbmw_migrate/src/Plugin/migrate/process/d6/BuildLink.php" />
       </list>
     </option>
   </component>
@@ -132,8 +98,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2329" />
-    <option name="y" value="-2130" />
+    <option name="x" value="1511" />
+    <option name="y" value="30" />
     <option name="width" value="2200" />
     <option name="height" value="2116" />
   </component>
@@ -184,6 +150,71 @@
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="file" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="migration_templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migration_templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="d6" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
@@ -247,6 +278,29 @@
               <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vbmw_migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="process" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docroot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vbmw_migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="process" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="d6" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -288,15 +342,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509896665486</updated>
-      <workItem from="1509896669333" duration="8218000" />
+      <workItem from="1509896669333" duration="24189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8218000" />
+    <option name="totallyTimeSpent" value="24189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2329" y="-2130" width="2200" height="2116" extended-state="0" />
+    <frame x="1511" y="30" width="2200" height="2116" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33255377" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -334,14 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration_group.vbmw_migrate.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/contrib/xbbcode/xbbcode.info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -430,10 +476,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/migration_templates/user_picture_field_instance.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/migration_templates/d6_user_picture_file.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/migration_templates/d7_user_role.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/src/Plugin/migrate/source/d7/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/src/Plugin/migrate/source/d6/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/migration_templates/d6_user_role.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/d6_user_role.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/migration_templates/d6_user.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/migration_templates/user_profile_field_instance.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/migration_templates/d6_profile_values.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_user.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_user_picture_file.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration_group.vbmw_migrate.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_file.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/user/src/Plugin/migrate/source/d6/ProfileFieldValues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/src/Plugin/migrate/process/d6/Debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/config/install/migrate_plus.migration.vbmw_profile_values.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/vbmw_migrate/src/Plugin/migrate/process/d6/BuildLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
