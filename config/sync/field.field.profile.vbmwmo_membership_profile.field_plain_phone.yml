@@ -1,0 +1,19 @@
+uuid: c46e045c-6822-4ea3-b106-b5aef27ec175
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_plain_phone
+    - profile.type.vbmwmo_membership_profile
+id: profile.vbmwmo_membership_profile.field_plain_phone
+field_name: field_plain_phone
+entity_type: profile
+bundle: vbmwmo_membership_profile
+label: 'Telephone Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

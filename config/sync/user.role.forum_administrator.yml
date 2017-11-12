@@ -6,4 +6,7 @@ id: forum_administrator
 label: 'Forum Administrator'
 weight: 16
 is_admin: null
-permissions: {  }
+permissions:
+  - 'view field_expiry_date'
+  - 'view field_membership_status'
+  - 'view field_vbmwmo_membership_number'

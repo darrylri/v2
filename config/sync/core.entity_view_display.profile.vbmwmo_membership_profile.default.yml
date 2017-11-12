@@ -1,0 +1,115 @@
+uuid: e8482322-2380-45a3-8abf-ffb6fd225c3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.vbmwmo_membership_profile.field_about_me
+    - field.field.profile.vbmwmo_membership_profile.field_expiry_date
+    - field.field.profile.vbmwmo_membership_profile.field_first_name
+    - field.field.profile.vbmwmo_membership_profile.field_last_name
+    - field.field.profile.vbmwmo_membership_profile.field_mailing_address
+    - field.field.profile.vbmwmo_membership_profile.field_membership_status
+    - field.field.profile.vbmwmo_membership_profile.field_middle_name
+    - field.field.profile.vbmwmo_membership_profile.field_plain_phone
+    - field.field.profile.vbmwmo_membership_profile.field_suffix
+    - field.field.profile.vbmwmo_membership_profile.field_title
+    - field.field.profile.vbmwmo_membership_profile.field_vbmwmo_membership_number
+    - profile.type.vbmwmo_membership_profile
+  module:
+    - address
+    - datetime
+    - options
+    - text
+id: profile.vbmwmo_membership_profile.default
+targetEntityType: profile
+bundle: vbmwmo_membership_profile
+mode: default
+content:
+  field_about_me:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_expiry_date:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_first_name:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_last_name:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_mailing_address:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_membership_status:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_middle_name:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_plain_phone:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_suffix:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_vbmwmo_membership_number:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden: {  }

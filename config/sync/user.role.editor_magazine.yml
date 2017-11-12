@@ -6,4 +6,7 @@ id: editor_magazine
 label: 'Editor, Magazine'
 weight: 12
 is_admin: null
-permissions: {  }
+permissions:
+  - 'view field_expiry_date'
+  - 'view field_membership_status'
+  - 'view field_vbmwmo_membership_number'

@@ -1,0 +1,21 @@
+uuid: d9d72629-0387-4d3b-860f-a07f06bbba25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_expiry_date
+    - profile.type.vbmwmo_membership_profile
+  module:
+    - datetime
+id: profile.vbmwmo_membership_profile.field_expiry_date
+field_name: field_expiry_date
+entity_type: profile
+bundle: vbmwmo_membership_profile
+label: 'Expiry Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -6,4 +6,5 @@ id: forum_moderator
 label: 'Forum Moderator'
 weight: 5
 is_admin: null
-permissions: {  }
+permissions:
+  - 'view field_vbmwmo_membership_number'

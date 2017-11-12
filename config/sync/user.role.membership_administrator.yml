@@ -6,4 +6,10 @@ id: membership_administrator
 label: 'Membership Administrator'
 weight: 11
 is_admin: null
-permissions: {  }
+permissions:
+  - 'edit field_expiry_date'
+  - 'edit field_membership_status'
+  - 'edit field_vbmwmo_membership_number'
+  - 'view field_expiry_date'
+  - 'view field_membership_status'
+  - 'view field_vbmwmo_membership_number'

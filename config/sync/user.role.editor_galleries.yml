@@ -6,4 +6,6 @@ id: editor_galleries
 label: 'Editor, Galleries'
 weight: 10
 is_admin: null
-permissions: {  }
+permissions:
+  - 'view field_membership_status'
+  - 'view field_vbmwmo_membership_number'

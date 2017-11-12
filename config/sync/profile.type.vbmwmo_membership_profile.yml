@@ -1,0 +1,28 @@
+uuid: f70f7f8c-00b1-4c54-960b-2cea45ada005
+langcode: en
+status: true
+dependencies: {  }
+id: vbmwmo_membership_profile
+label: 'VBMWMO Membership Profile'
+registration: false
+multiple: false
+roles:
+  member_current: member_current
+  member_lapsed: member_lapsed
+  authenticated: '0'
+  administrator: '0'
+  site_administrator: '0'
+  forum_moderator: '0'
+  editor_events: '0'
+  editor_news: '0'
+  editor_resources: '0'
+  editor_galleries: '0'
+  membership_administrator: '0'
+  editor_magazine: '0'
+  store_administrator: '0'
+  member_non: '0'
+  editor_bibliography: '0'
+  forum_administrator: '0'
+weight: 0
+use_revisions: false
+description: ''

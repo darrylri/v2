@@ -1,0 +1,21 @@
+uuid: bc871cc6-2653-46dd-b369-8eb1da4fff66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_membership_status
+    - profile.type.vbmwmo_membership_profile
+  module:
+    - options
+id: profile.vbmwmo_membership_profile.field_membership_status
+field_name: field_membership_status
+entity_type: profile
+bundle: vbmwmo_membership_profile
+label: 'Membership Status'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

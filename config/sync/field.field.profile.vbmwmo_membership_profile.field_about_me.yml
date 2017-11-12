@@ -1,0 +1,21 @@
+uuid: 16e6d32a-1f0a-42d4-b93d-2e01422b48aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_about_me
+    - profile.type.vbmwmo_membership_profile
+  module:
+    - text
+id: profile.vbmwmo_membership_profile.field_about_me
+field_name: field_about_me
+entity_type: profile
+bundle: vbmwmo_membership_profile
+label: 'About Me'
+description: 'Include anything you''d like to share with other members. For example, how you became interested in Vintage BMWs, work you''ve done on your bike, etc. <strong>We recommend you not share any personally identifying information, such as phone numbers, specific addresses, etc.</strong>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

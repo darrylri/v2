@@ -1,0 +1,109 @@
+uuid: 941a632a-b458-4354-8adf-0714e60dbdee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.vbmwmo_membership_profile.field_about_me
+    - field.field.profile.vbmwmo_membership_profile.field_expiry_date
+    - field.field.profile.vbmwmo_membership_profile.field_first_name
+    - field.field.profile.vbmwmo_membership_profile.field_last_name
+    - field.field.profile.vbmwmo_membership_profile.field_mailing_address
+    - field.field.profile.vbmwmo_membership_profile.field_membership_status
+    - field.field.profile.vbmwmo_membership_profile.field_middle_name
+    - field.field.profile.vbmwmo_membership_profile.field_plain_phone
+    - field.field.profile.vbmwmo_membership_profile.field_suffix
+    - field.field.profile.vbmwmo_membership_profile.field_title
+    - field.field.profile.vbmwmo_membership_profile.field_vbmwmo_membership_number
+    - profile.type.vbmwmo_membership_profile
+  module:
+    - address
+    - datetime
+    - text
+id: profile.vbmwmo_membership_profile.default
+targetEntityType: profile
+bundle: vbmwmo_membership_profile
+mode: default
+content:
+  field_about_me:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_expiry_date:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_first_name:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_last_name:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_mailing_address:
+    weight: 8
+    settings:
+      default_country: null
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_membership_status:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_middle_name:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_plain_phone:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_suffix:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_title:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_vbmwmo_membership_number:
+    weight: 0
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+hidden: {  }

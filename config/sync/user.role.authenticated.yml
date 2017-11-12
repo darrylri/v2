@@ -18,3 +18,5 @@ permissions:
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'use text format xbbcode'
+  - 'view own field_expiry_date'
+  - 'view own field_vbmwmo_membership_number'

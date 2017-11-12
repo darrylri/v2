@@ -1,0 +1,85 @@
+uuid: 549c6003-9927-4b7b-b468-f1bac454050e
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - profile
+third_party_settings:
+  field_permissions:
+    permission_type: custom
+id: profile.field_membership_status
+field_name: field_membership_status
+entity_type: profile
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Member
+      label: Member
+    -
+      value: 'Life Member'
+      label: 'Life Member'
+    -
+      value: Founder
+      label: Founder
+    -
+      value: Trustee
+      label: Trustee
+    -
+      value: Officer
+      label: Officer
+    -
+      value: Director
+      label: Director
+    -
+      value: Ex-Officio
+      label: Ex-Officio
+    -
+      value: Complimentary
+      label: Complimentary
+    -
+      value: Contributor
+      label: Contributor
+    -
+      value: Advertiser
+      label: Advertiser
+    -
+      value: Honoree
+      label: Honoree
+    -
+      value: Publication
+      label: Publication
+    -
+      value: 'Rally Sponsor'
+      label: 'Rally Sponsor'
+    -
+      value: 'Lapsed Member'
+      label: 'Lapsed Member'
+    -
+      value: Moved
+      label: Moved
+    -
+      value: 'No Forwarding Address'
+      label: 'No Forwarding Address'
+    -
+      value: 'Not Deliverable'
+      label: 'Not Deliverable'
+    -
+      value: Deceased
+      label: Deceased
+    -
+      value: Quit
+      label: Quit
+    -
+      value: Voided
+      label: Voided
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

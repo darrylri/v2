@@ -1,0 +1,23 @@
+uuid: a9d6766a-fa8c-4709-922b-a790e56b01df
+langcode: en
+status: true
+dependencies:
+  module:
+    - address
+    - field_permissions
+    - profile
+third_party_settings:
+  field_permissions:
+    permission_type: private
+id: profile.field_mailing_address
+field_name: field_mailing_address
+entity_type: profile
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
