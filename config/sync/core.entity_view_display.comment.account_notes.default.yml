@@ -1,0 +1,25 @@
+uuid: 10f6d3b4-9065-42e4-87ac-60eb66f5c277
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.account_notes
+    - field.field.comment.account_notes.comment_body
+  module:
+    - text
+id: comment.account_notes.default
+targetEntityType: comment
+bundle: account_notes
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

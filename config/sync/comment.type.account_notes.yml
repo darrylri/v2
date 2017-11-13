@@ -1,0 +1,8 @@
+uuid: f0a491aa-9ccf-4ca8-a286-7ea08225ae4e
+langcode: en
+status: true
+dependencies: {  }
+id: account_notes
+label: 'Account Notes'
+target_entity_type_id: user
+description: ''

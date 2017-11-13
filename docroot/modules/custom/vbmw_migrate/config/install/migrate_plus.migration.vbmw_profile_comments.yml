@@ -1,0 +1,54 @@
+id: vbmw_profile_comment
+label: Membership account comments
+migration_group: vbmw_migrate
+migration_tags:
+  - Drupal 6
+source:
+  plugin: d6_type_comment
+  node_type: 'profile'
+  constants:
+    entity_type: user
+    comment_type: account_notes
+    comment_field: field_account_notes
+process:
+  # If you are using this file to build a custom migration consider removing
+  # the cid field to allow incremental migrations.
+  cid: cid
+  pid:
+    plugin: migration_lookup
+    migration: vbmw_profile_comment
+    source: pid
+  test_entity_id:
+    -
+      plugin: migration_lookup
+      migration: vbmw_user
+      source: profile_uid
+      no_stub: true
+    -
+      plugin: skip_on_empty
+      method: row
+  entity_id: profile_uid
+  entity_type: 'constants/entity_type'
+  comment_type: 'constants/comment_type'
+  field_name: 'constants/comment_field'
+  subject: subject
+  uid: uid
+  name: name
+  mail: mail
+  homepage: homepage
+  hostname: hostname
+  created: timestamp
+  changed: timestamp
+  status: status #In D6, published=0. We reverse the value in prepareRow.
+  thread: thread
+  'comment_body/value': comment
+  'comment_body/format':
+    plugin: migration_lookup
+    migration: vbmw_filter_format
+    source: format
+destination:
+  plugin: entity:comment
+migration_dependencies:
+  required:
+    - vbmw_user
+    - vbmw_filter_format
