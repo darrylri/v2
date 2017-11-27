@@ -1,19 +1,15 @@
 uuid: 1aabfa04-1687-4763-a322-1a8574bdea8f
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - xbbcode
 _core:
   default_config_hash: hewPmBgni9jlDK_IjLxUx1HsTbinK-hdl0lOwjbteIY
 name: 'Full HTML'
 format: full_html
 weight: 1
 filters:
-  filter_null:
-    id: filter_null
-    provider: filter
-    status: true
-    weight: -10
-    settings: {  }
   filter_htmlcorrector:
     id: filter_htmlcorrector
     provider: filter
@@ -25,10 +21,19 @@ filters:
     provider: filter
     status: true
     weight: 0
-    settings: {  }
+    settings:
+      filter_url_length: 72
   filter_autop:
     id: filter_autop
     provider: filter
     status: true
     weight: 0
     settings: {  }
+  xbbcode:
+    id: xbbcode
+    provider: xbbcode
+    status: true
+    weight: 0
+    settings:
+      linebreaks: true
+      tags: ''

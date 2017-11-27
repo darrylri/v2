@@ -11,5 +11,5 @@ docroot/sites/*/files/
 web/sites/simpletest
 
 # Ignore environment stuff
-docroot/.idea/*
+.idea/
 .docksal/

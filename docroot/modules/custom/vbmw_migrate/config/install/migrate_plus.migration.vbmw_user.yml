@@ -4,7 +4,7 @@ migration_group: vbmw_migrate
 migration_tags:
   - Drupal 6
 source:
-  plugin: d6_user
+  plugin: d6_vbmw_user
 process:
   # If you are using this file to build a custom migration consider removing
   # the uid field to allow incremental migrations.
@@ -41,6 +41,11 @@ process:
     migration: vbmw_user_picture_file
     source: uid
     no_stub: true
+  'field_signature/format':
+    plugin: migration_lookup
+    migration: vbmw_filter_format
+    source: signature_format
+  'field_signature/value': signature
 destination:
   plugin: entity:user
   md5_passwords: true

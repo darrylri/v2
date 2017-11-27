@@ -1,0 +1,73 @@
+uuid: db9bb93c-868a-455b-a31e-c3183ee16de4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bibliography.body
+    - field.field.node.bibliography.field_bib_attachments
+    - field.field.node.bibliography.field_bib_author
+    - field.field.node.bibliography.field_bib_isbn
+    - field.field.node.bibliography.field_bib_publisher
+    - field.field.node.bibliography.field_bib_tags
+    - node.type.bibliography
+  module:
+    - file
+    - text
+    - user
+id: node.bibliography.default
+targetEntityType: node
+bundle: bibliography
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_bib_attachments:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_table
+    region: content
+  field_bib_author:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_bib_isbn:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_bib_publisher:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_bib_tags:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

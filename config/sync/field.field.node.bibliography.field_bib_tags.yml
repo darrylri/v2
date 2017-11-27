@@ -1,0 +1,29 @@
+uuid: 3ac200b7-7e1c-429f-a20c-6bd50a0ed5ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bib_tags
+    - node.type.bibliography
+    - taxonomy.vocabulary.bibliography
+id: node.bibliography.field_bib_tags
+field_name: field_bib_tags
+entity_type: node
+bundle: bibliography
+label: 'Book Tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bibliography: bibliography
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

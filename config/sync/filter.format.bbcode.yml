@@ -6,12 +6,6 @@ name: BBCode
 format: bbcode
 weight: 0
 filters:
-  filter_null:
-    id: filter_null
-    provider: filter
-    status: true
-    weight: -10
-    settings: {  }
   filter_html:
     id: filter_html
     provider: filter

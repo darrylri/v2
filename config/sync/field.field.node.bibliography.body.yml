@@ -1,0 +1,22 @@
+uuid: 23fe464e-d445-402f-8543-9761df3257c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bibliography
+  module:
+    - text
+id: node.bibliography.body
+field_name: body
+entity_type: node
+bundle: bibliography
+label: 'Book Review'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

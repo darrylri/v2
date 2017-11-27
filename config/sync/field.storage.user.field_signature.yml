@@ -1,25 +1,24 @@
-uuid: 3ed982dc-02f8-4c44-8f4d-c01aca0e10a7
+uuid: 9d27e7f5-f947-4288-9790-3d04815c7101
 langcode: en
 status: true
 dependencies:
   module:
     - field_permissions
-    - node
     - text
+    - user
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: EBUo7qOWqaiZaQ_RC9sLY5IoDKphS34v77VIHSACmVY
-id: node.body
-field_name: body
-entity_type: node
-type: text_with_summary
-settings: {  }
+id: user.field_signature
+field_name: field_signature
+entity_type: user
+type: text
+settings:
+  max_length: 1023
 module: text
 locked: false
 cardinality: 1
 translatable: true
 indexes: {  }
-persist_with_no_fields: true
+persist_with_no_fields: false
 custom_storage: false

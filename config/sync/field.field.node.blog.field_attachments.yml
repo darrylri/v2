@@ -1,0 +1,27 @@
+uuid: f5d28219-dae3-414b-b78a-abbc9be07977
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.blog
+  module:
+    - file
+id: node.blog.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: blog
+label: Attachments
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: blog
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx pdf tif tiff eps bmp'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

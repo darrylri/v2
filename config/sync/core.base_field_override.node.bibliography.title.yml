@@ -1,0 +1,18 @@
+uuid: 9b1186d7-3991-49ec-b6cc-62b2d07592d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bibliography
+id: node.bibliography.title
+field_name: title
+entity_type: node
+bundle: bibliography
+label: 'Book Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,37 @@
+uuid: 6fb0b7e7-717b-4816-a36d-befd027f1a28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blog.body
+    - field.field.node.blog.field_attachments
+    - node.type.blog
+  module:
+    - file
+    - text
+    - user
+id: node.blog.default
+targetEntityType: node
+bundle: blog
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attachments:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_table
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

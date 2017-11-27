@@ -4,12 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.user.user.field_account_notes
+    - field.field.user.user.field_signature
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - comment
     - image
     - path
+    - text
     - user
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
@@ -19,35 +21,51 @@ bundle: user
 mode: default
 content:
   account:
-    weight: -10
+    weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   contact:
-    weight: 5
+    weight: 4
     region: content
+    settings: {  }
+    third_party_settings: {  }
   field_account_notes:
-    weight: 31
+    weight: 7
     settings: {  }
     third_party_settings: {  }
     type: comment_default
     region: content
-  language:
-    weight: 0
+  field_signature:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
     region: content
+  language:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
   timezone:
-    weight: 6
+    weight: 5
     region: content
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image_image
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-    weight: -1
+    weight: 1
     region: content
 hidden: {  }

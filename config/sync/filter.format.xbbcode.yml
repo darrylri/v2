@@ -9,7 +9,7 @@ dependencies:
     - xbbcode
 _core:
   default_config_hash: OYHlmdQ5dma1IbzXtjmNf7qdIdQCfGby7K1Kr23vCbs
-name: BBCode
+name: 'not used - BBCode'
 format: xbbcode
 weight: -5
 filters:

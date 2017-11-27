@@ -3,12 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.account_notes.default
     - field.field.user.user.field_account_notes
+    - field.field.user.user.field_signature
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - comment
     - image
+    - text
     - user
 _core:
   default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
@@ -18,7 +21,7 @@ bundle: user
 mode: default
 content:
   field_account_notes:
-    weight: 4
+    weight: 5
     label: above
     settings:
       view_mode: default
@@ -26,18 +29,25 @@ content:
     third_party_settings: {  }
     type: comment_default
     region: content
-  member_for:
+  field_signature:
     weight: 1
-    region: content
+    label: above
     settings: {  }
     third_party_settings: {  }
-  profile_discussion_settings:
+    type: text_default
+    region: content
+  member_for:
     weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
-  profile_vbmwmo_membership_profile:
+  profile_discussion_settings:
     weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  profile_vbmwmo_membership_profile:
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
