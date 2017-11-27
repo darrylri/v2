@@ -1,0 +1,41 @@
+uuid: cc863bda-6504-421e-963c-d9a9e5bedb2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.discussion_thread.body
+    - field.field.node.discussion_thread.field_attachments
+    - field.field.node.discussion_thread.field_discussion_areas
+    - node.type.discussion_thread
+  module:
+    - text
+    - user
+id: node.discussion_thread.teaser
+targetEntityType: node
+bundle: discussion_thread
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_discussion_areas:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_attachments: true

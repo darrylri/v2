@@ -1,22 +1,22 @@
-uuid: b6bc8a0a-064e-4202-b70c-60615a27c858
+uuid: e0071922-06b3-4812-a1f7-44a780f5f61b
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: '-RlCuDOoKHISgekH_W4vCZaYaU-s9w6IURGJmdP0c68'
-id: vbmw_node_blog
+  default_config_hash: Ruc5BkmENO7wNM9UzjRRXXDSpq8wZyjVJQKO0ke7jv8
+id: vbmw_node_forum
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags:
   - 'Drupal 6'
 migration_group: vbmw_migrate
-label: '2014 Cannonball blog'
+label: 'Forum thread nodes'
 source:
   plugin: vbmw_node
-  node_type: blog
+  node_type: forum
   constants:
-    bundle: blog
+    bundle: discussion_thread
 process:
   type: constants/bundle
   nid: tnid
@@ -39,6 +39,7 @@ process:
   body/value: body
   body/summary: teaser
   field_attachments: fids
+  field_discussion_areas: tids
 destination:
   plugin: 'entity:node'
 migration_dependencies:

@@ -1,0 +1,27 @@
+uuid: 3be559fc-de3e-448c-9934-21e48dd1b81f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.discussion_thread
+  module:
+    - file
+id: node.discussion_thread.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: discussion_thread
+label: Attachments
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'discussions/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx pdf tif tiff eps bmp'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

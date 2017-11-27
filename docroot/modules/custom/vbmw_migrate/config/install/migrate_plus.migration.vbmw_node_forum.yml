@@ -1,0 +1,45 @@
+id: vbmw_node_forum
+label: Forum thread nodes
+migration_group: vbmw_migrate
+migration_tags:
+  - Drupal 6
+deriver: Drupal\node\Plugin\migrate\D6NodeDeriver
+source:
+  plugin: vbmw_node
+  node_type: 'forum'
+  constants:
+    bundle: 'discussion_thread'
+process:
+  type: 'constants/bundle'
+  # In D6, nodes always have a tnid, but it's zero for untranslated nodes.
+  # We normalize it to equal the nid in that case.
+  # @see \Drupal\node\Plugin\migrate\source\d6\Node::prepareRow().
+  # If you are using this file to build a custom migration consider removing
+  # the nid and vid fields to allow incremental migrations.
+  nid: tnid
+  vid: vid
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: "und"
+  title: title
+  uid: node_uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  'body/format':
+    plugin: migration_lookup
+    migration: vbmw_filter_format
+    source: format
+  'body/value': body
+  'body/summary': teaser
+  field_attachments: fids
+  field_discussion_areas: tids
+destination:
+  plugin: entity:node
+migration_dependencies:
+  required:
+    - vbmw_user
+    - vbmw_filter_format

@@ -1,0 +1,22 @@
+uuid: 68ab5681-3fbc-4a49-af0f-2a3996b0c364
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.discussion_thread
+id: node.discussion_thread.promote
+field_name: promote
+entity_type: node
+bundle: discussion_thread
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

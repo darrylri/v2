@@ -1,0 +1,18 @@
+uuid: 6b0ca0f3-227e-49f4-8e9d-f712838c976b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.discussion_thread
+id: node.discussion_thread.title
+field_name: title
+entity_type: node
+bundle: discussion_thread
+label: Subject
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

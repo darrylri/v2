@@ -1,0 +1,46 @@
+uuid: 66cd94d4-bda5-47d5-b058-ac0ca9507c0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.discussion_thread.body
+    - field.field.node.discussion_thread.field_attachments
+    - field.field.node.discussion_thread.field_discussion_areas
+    - node.type.discussion_thread
+  module:
+    - file
+    - text
+    - user
+id: node.discussion_thread.default
+targetEntityType: node
+bundle: discussion_thread
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attachments:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_discussion_areas:
+    weight: 1
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

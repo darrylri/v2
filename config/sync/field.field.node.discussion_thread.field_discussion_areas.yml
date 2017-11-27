@@ -1,0 +1,29 @@
+uuid: 364c52ea-2239-4b6a-b7fb-64e0901d1eaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_discussion_areas
+    - node.type.discussion_thread
+    - taxonomy.vocabulary.forums
+id: node.discussion_thread.field_discussion_areas
+field_name: field_discussion_areas
+entity_type: node
+bundle: discussion_thread
+label: 'Discussion Areas'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      forums: forums
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
