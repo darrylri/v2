@@ -1,0 +1,23 @@
+uuid: db84927a-2564-4cf5-8645-ec2217645062
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_magazine_volume
+    - node.type.magazine_info
+id: node.magazine_info.field_magazine_volume
+field_name: field_magazine_volume
+entity_type: node
+bundle: magazine_info
+label: V
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 42
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

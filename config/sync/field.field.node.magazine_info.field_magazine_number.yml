@@ -1,0 +1,25 @@
+uuid: 6a3a18ea-974a-4114-9176-bb4394505708
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_magazine_number
+    - node.type.magazine_info
+id: node.magazine_info.field_magazine_number
+field_name: field_magazine_number
+entity_type: node
+bundle: magazine_info
+label: 'N'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: 1
+  max: 6
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,22 @@
+uuid: aa110fd6-e72c-4ac6-9268-9b999a806975
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.magazine_info
+  module:
+    - text
+id: node.magazine_info.body
+field_name: body
+entity_type: node
+bundle: magazine_info
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

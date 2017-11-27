@@ -1,0 +1,29 @@
+uuid: 6a80cfb4-7511-4b68-9d70-edf7c5fbd5cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_info_type
+    - node.type.magazine_info
+    - taxonomy.vocabulary.bulletin_content_type
+id: node.magazine_info.field_info_type
+field_name: field_info_type
+entity_type: node
+bundle: magazine_info
+label: 'Info type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bulletin_content_type: bulletin_content_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

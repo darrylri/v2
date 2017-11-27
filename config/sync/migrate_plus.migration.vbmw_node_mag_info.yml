@@ -1,22 +1,22 @@
-uuid: ab57960b-15ab-430b-971d-030777800298
+uuid: dbcb82ba-5302-4aea-be79-8327910190dc
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: A1GvRUl1p2VXofF7aypBwzJofC4I2N9_Iz7b2Aakdr0
-id: vbmw_node_bib
+  default_config_hash: _QBnITop1JYkZ24vEmSXpR--bUCeEN4oM61-FfZFFDs
+id: vbmw_node_mag_info
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags:
   - 'Drupal 6'
 migration_group: vbmw_migrate
-label: 'Bibliography Nodes'
+label: 'Internal magazine info'
 source:
   plugin: vbmw_node
-  node_type: bibliography
+  node_type: bulletin_content
   constants:
-    bundle: bibliography
+    bundle: magazine_info
 process:
   type: constants/bundle
   nid: tnid
@@ -38,11 +38,11 @@ process:
     source: format
   body/value: body
   body/summary: teaser
-  field_bib_author: field_bib_author
-  field_bib_publisher: field_bib_publisher
-  field_bib_isbn: field_bib_isbn
-  field_bib_tags: tids
-  field_bib_attachments: fids
+  field_attachments: fids
+  field_article_prio: field_bulletin_priority
+  field_info_type: tids
+  field_magazine_number: field_bulletin_number
+  field_magazine_volume: field_bulletin_volume
 destination:
   plugin: 'entity:node'
 migration_dependencies:

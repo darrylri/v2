@@ -1,0 +1,75 @@
+uuid: 13cef311-bd2a-4d36-941e-b13a2db05e89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.magazine_info.body
+    - field.field.node.magazine_info.field_article_prio
+    - field.field.node.magazine_info.field_attachments
+    - field.field.node.magazine_info.field_info_type
+    - field.field.node.magazine_info.field_magazine_number
+    - field.field.node.magazine_info.field_magazine_volume
+    - node.type.magazine_info
+  module:
+    - file
+    - options
+    - text
+    - user
+id: node.magazine_info.default
+targetEntityType: node
+bundle: magazine_info
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_article_prio:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_attachments:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_info_type:
+    weight: 1
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_magazine_number:
+    weight: 4
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_magazine_volume:
+    weight: 3
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

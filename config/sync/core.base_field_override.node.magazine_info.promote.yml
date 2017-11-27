@@ -1,0 +1,22 @@
+uuid: a28621a3-4940-4eca-9b21-452c14e994ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.magazine_info
+id: node.magazine_info.promote
+field_name: promote
+entity_type: node
+bundle: magazine_info
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

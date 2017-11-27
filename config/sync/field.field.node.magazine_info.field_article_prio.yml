@@ -1,0 +1,23 @@
+uuid: 145179c8-9f00-4a39-8a5c-4cc831324dbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_prio
+    - node.type.magazine_info
+  module:
+    - options
+id: node.magazine_info.field_article_prio
+field_name: field_article_prio
+entity_type: node
+bundle: magazine_info
+label: 'Article priority'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings: {  }
+field_type: list_integer
