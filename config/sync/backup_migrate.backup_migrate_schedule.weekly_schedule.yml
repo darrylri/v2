@@ -1,0 +1,13 @@
+uuid: 9947b3eb-bdec-47d7-8106-2531229541e7
+langcode: en
+status: true
+dependencies: {  }
+id: weekly_schedule
+label: 'Weekly schedule'
+enabled: true
+keep: 12
+period: 604800
+cron: null
+source_id: default_db
+destination_id: private_files
+settings_profile_id: null
