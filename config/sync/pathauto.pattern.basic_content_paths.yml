@@ -1,0 +1,14 @@
+uuid: 7a42fb13-cb1c-4203-a892-092cfc363d22
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: basic_content_paths
+label: 'Basic Content Paths'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: -6
+relationships: {  }

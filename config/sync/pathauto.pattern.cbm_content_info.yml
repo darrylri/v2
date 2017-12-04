@@ -1,0 +1,22 @@
+uuid: 307bb043-223f-408b-a2f5-d6b2fc6483cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: cbm_content_info
+label: 'CBM content/info'
+type: 'canonical_entities:node'
+pattern: 'cbm/v[node:field_magazine_volume]n[node:field_magazine_number]_[node:title]'
+selection_criteria:
+  fc907ed7-81b0-436d-bbff-f504e2528aea:
+    id: node_type
+    bundles:
+      magazine_info: magazine_info
+    negate: false
+    context_mapping:
+      node: node
+    uuid: fc907ed7-81b0-436d-bbff-f504e2528aea
+selection_logic: and
+weight: -8
+relationships: {  }

@@ -1,0 +1,38 @@
+uuid: c6d831c4-44d5-47ab-84d8-ffe1bfd3579b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_people_pix
+    - node.type.people
+  module:
+    - image
+id: node.people.field_people_pix
+field_name: field_people_pix
+entity_type: node
+bundle: people
+label: 'People pictures'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: people
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,22 @@
+uuid: 6da092b4-de1d-4587-9d1f-92a385f12e08
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: forum_threads
+label: 'Forum threads'
+type: 'canonical_entities:node'
+pattern: 'forum/[node:field_discussion_areas]/[node:created:short_date_only]_[node:title]'
+selection_criteria:
+  c407471b-bd0d-4aad-8fe2-1ce1e2595f5d:
+    id: node_type
+    bundles:
+      discussion_thread: discussion_thread
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c407471b-bd0d-4aad-8fe2-1ce1e2595f5d
+selection_logic: and
+weight: -9
+relationships: {  }

@@ -1,0 +1,26 @@
+uuid: f1885e5f-116e-401b-8858-423a04d19d8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_date
+    - node.type.news
+  module:
+    - datetime_range
+id: node.news.field_news_date
+field_name: field_news_date
+entity_type: node
+bundle: news
+label: 'News Date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: ''
+    default_end_date: ''
+default_value_callback: ''
+settings: {  }
+field_type: daterange

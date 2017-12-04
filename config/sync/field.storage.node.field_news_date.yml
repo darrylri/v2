@@ -1,0 +1,24 @@
+uuid: 41b9a161-ba0d-469a-a58f-59888b25be5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_news_date
+field_name: field_news_date
+entity_type: node
+type: daterange
+settings:
+  datetime_type: date
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

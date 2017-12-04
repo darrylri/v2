@@ -1,0 +1,19 @@
+uuid: f3139d4c-64bc-4698-ad55-749be04e2342
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_location
+    - node.type.news
+id: node.news.field_news_location
+field_name: field_news_location
+entity_type: node
+bundle: news
+label: 'News Location'
+description: 'This should be the general location where the News is occurring.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

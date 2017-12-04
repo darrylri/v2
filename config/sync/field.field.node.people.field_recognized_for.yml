@@ -1,0 +1,29 @@
+uuid: 0aa820db-f137-4958-92d6-e091383de277
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recognized_for
+    - node.type.people
+    - taxonomy.vocabulary.people
+id: node.people.field_recognized_for
+field_name: field_recognized_for
+entity_type: node
+bundle: people
+label: 'Recognized for'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      people: people
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
