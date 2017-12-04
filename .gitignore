@@ -6,6 +6,7 @@ docroot/sites/*/settings.local.php
 
 # Ignore Drupal's file directory
 docroot/sites/*/files/
+docroot/sites/default/private-fs
 
 # Ignore SimpleTest multi-site environment.
 web/sites/simpletest
