@@ -1,0 +1,27 @@
+uuid: f33b4f30-1285-46af-8217-fe5bc971559f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.news
+  module:
+    - file
+id: node.news.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: news
+label: Attachments
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'news/[date:custom:Y]'
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx pdf tif tiff eps bmp'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

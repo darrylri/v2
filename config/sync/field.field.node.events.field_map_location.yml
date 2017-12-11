@@ -1,0 +1,21 @@
+uuid: 7097cd5e-5886-48e5-9b70-f9feb3915db7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_map_location
+    - node.type.events
+  module:
+    - geolocation
+id: node.events.field_map_location
+field_name: field_map_location
+entity_type: node
+bundle: events
+label: 'Map Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

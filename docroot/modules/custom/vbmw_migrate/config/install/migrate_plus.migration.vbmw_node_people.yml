@@ -57,4 +57,3 @@ migration_dependencies:
   required:
     - vbmw_filter_format
     - vbmw_file
-    

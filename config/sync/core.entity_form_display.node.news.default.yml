@@ -4,12 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
+    - field.field.node.news.field_attachments
     - field.field.node.news.field_news_date
     - field.field.node.news.field_news_location
     - field.field.node.news.field_news_tags
     - node.type.news
   module:
     - datetime_range
+    - file
     - path
     - text
 id: node.news.default
@@ -32,6 +34,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_attachments:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
   field_news_date:
     weight: 1
     settings: {  }

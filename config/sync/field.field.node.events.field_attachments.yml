@@ -1,0 +1,27 @@
+uuid: 633b32a6-6dee-44bc-8d1f-dab39117b5b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.events
+  module:
+    - file
+id: node.events.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: events
+label: Attachments
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'events/[date:custom:Y]'
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx pdf tif tiff eps bmp'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

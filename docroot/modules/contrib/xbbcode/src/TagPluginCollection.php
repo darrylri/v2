@@ -89,8 +89,7 @@ class TagPluginCollection extends DefaultLazyPluginCollection implements PluginC
   public function getSummary() {
     $tags = [
       '#theme' => 'item_list',
-      '#wrapper_attributes' => ['class' => ['xbbcode-tips-list']],
-      '#attached' => ['library' => ['xbbcode/filter-tips']],
+      '#context' => ['list_style' => 'comma-list'],
       '#items' => [],
       '#empty' => $this->t('None'),
     ];
@@ -124,7 +123,7 @@ class TagPluginCollection extends DefaultLazyPluginCollection implements PluginC
 
     foreach ($this as $name => $tag) {
       /** @var \Drupal\xbbcode\Plugin\TagPluginInterface $tag */
-      $parser = new XBBCodeParser(TagPluginCollection::createFromTags([$name => $tag]));
+      $parser = new XBBCodeParser(static::createFromTags([$name => $tag]));
       $tree = $parser->parse($tag->getSample());
       $sample = $tree->render();
       $attachments = [];
