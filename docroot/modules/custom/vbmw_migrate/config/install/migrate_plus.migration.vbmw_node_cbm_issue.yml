@@ -35,8 +35,40 @@ process:
     source: format
   'body/value': body
   'body/summary': teaser
+  field_attachments: fids
+  field_magazine_number: field_bulletin_number
+  field_magazine_volume: field_bulletin_volume
+  field_cover_image:
+    plugin: iterator
+    source: field_cover
+    key: '@delta'
+    process:
+      delta: delta
+      data:
+        plugin: d6_file_data
+        source: data
+      target_id:
+        plugin: migration_lookup
+        migration: vbmw_file
+        source: fid
+      alt: '@description'
+  field_toc_image:
+    plugin: iterator
+    source: field_toc
+    key: '@delta'
+    process:
+      delta: delta
+      data:
+        plugin: d6_file_data
+        source: data
+      target_id:
+        plugin: migration_lookup
+        migration: vbmw_file
+        source: fid
+      alt: '@description'
 destination:
   plugin: entity:node
 migration_dependencies:
   required:
     - vbmw_filter_format
+    - vbmw_file
