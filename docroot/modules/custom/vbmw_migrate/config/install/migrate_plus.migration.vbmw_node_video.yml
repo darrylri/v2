@@ -35,6 +35,10 @@ process:
     source: format
   'body/value': body
   'body/summary': teaser
+  field_attachments: fids
+  field_video: field_video_link
+  debug:
+    plugin: d6_debug
 destination:
   plugin: entity:node
 migration_dependencies:
