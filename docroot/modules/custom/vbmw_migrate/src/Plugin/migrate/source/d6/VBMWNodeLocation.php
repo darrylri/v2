@@ -2,19 +2,16 @@
 
 namespace Drupal\vbmw_migrate\Plugin\migrate\source\d6;
 
-use Drupal\vbmw_migrate\Plugin\migrate\source\d6;
-use Drupal\node\Plugin\migrate\source\d6\Node;
-use Drupal\Core\Database\Database;
 use Drupal\migrate\Row;
 
 /**
- * Drupal 6 node source from database.
+ * Drupal 6 node with a location source from database.
  *
  * @MigrateSource(
- *   id = "vbmw_node_event",
+ *   id = "vbmw_node_location",
  * )
  */
-class VBMWNodeEvent extends VBMWNode {
+class VBMWNodeLocation extends VBMWNode {
 
   /**
    * @inheritdoc

@@ -1,14 +1,14 @@
-id: vbmw_node_events
-label: Migrate D6 events to events
+id: vbmw_node_resources
+label: Migrate D6 resource4 links to resource links
 migration_group: vbmw_migrate
 migration_tags:
   - Drupal 6
 deriver: Drupal\node\Plugin\migrate\D6NodeDeriver
 source:
   plugin: vbmw_node_location
-  node_type: 'events'
+  node_type: 'resource_link'
   constants:
-    bundle: 'events'
+    bundle: 'resource_link'
 process:
   type: 'constants/bundle'
   # In D6, nodes always have a tnid, but it's zero for untranslated nodes.
@@ -35,27 +35,26 @@ process:
     source: format
   'body/value': body
   'body/summary': teaser
+  field_resource_type: tids
   field_attachments: fids
-  'field_news_date/value':
+  field_contact_information: field_resource_contact
+  field_website_link:
     -
       plugin: extract
-      source: field_news_date
+      source: field_resource_url
+      default: ''
       index:
         - 0
         - value
     -
-      plugin: d6_fix_date
-      format: 'Y-m-d'
-  'field_news_date/end_value':
-    -
-      plugin: extract
-      source: field_news_date
-      index:
-        - 0
-        - value2
-    -
-      plugin: d6_fix_date
-      format: 'Y-m-d'
+      plugin: d6_build_link
+  field_email:
+    plugin: extract
+    source: field_resource_email
+    default: ''
+    index:
+      - 0
+      - email
   'field_map_location/lat': latitude
   'field_map_location/lng': longitude
   'field_event_address/country_code': country

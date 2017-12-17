@@ -19,16 +19,26 @@ class BuildLink extends ProcessPluginBase {
    * {@inheritdoc}
    */
   public function transform($value, MigrateExecutableInterface $migrate_executable, Row $row, $destination_property) {
-    if (isset($value) && is_array($value)) {
-      if (!in_array('url', array_keys($value))) {
-        $value = array_pop($value);
-      }
+    if (isset($value)) {
+      if (is_array($value)) {
+        if (!in_array('url', array_keys($value))) {
+          $value = array_pop($value);
+        }
 
-      $value = [
-        'uri' => $this->valid_uri($value['url']),
-        'title' => $value['title'],
-        'options' => $value['attributes'],
-      ];
+        $value = [
+          'uri' => $this->valid_uri($value['url']),
+          'title' => $value['title'],
+          'options' => $value['attributes'],
+        ];
+      }
+      else {
+        // Only the uri is given
+        $value = [
+          'uri' => $this->valid_uri($value),
+          'title' => '',
+          'options' => [],
+        ];
+      }
     }
     else {
       $url = $this->configuration['url'];
