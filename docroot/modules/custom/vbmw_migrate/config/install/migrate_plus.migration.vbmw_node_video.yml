@@ -36,9 +36,13 @@ process:
   'body/value': body
   'body/summary': teaser
   field_attachments: fids
-  field_video: field_video_link
-  debug:
-    plugin: d6_debug
+  field_video:
+    plugin: iterator
+    source: field_video_link
+    key: '@delta'
+    process:
+      delta: delta
+      value: embed
 destination:
   plugin: entity:node
 migration_dependencies:
