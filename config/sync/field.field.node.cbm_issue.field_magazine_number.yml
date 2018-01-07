@@ -1,0 +1,23 @@
+uuid: cffd5b0b-20ae-431c-8ce7-a6ce8dc46ace
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_magazine_number
+    - node.type.cbm_issue
+id: node.cbm_issue.field_magazine_number
+field_name: field_magazine_number
+entity_type: node
+bundle: cbm_issue
+label: 'N'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

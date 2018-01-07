@@ -1,0 +1,17 @@
+uuid: e6be6320-2134-4080-ba45-40d8854b9ce4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'CBM Issue'
+type: cbm_issue
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

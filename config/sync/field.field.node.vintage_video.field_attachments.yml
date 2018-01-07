@@ -1,0 +1,27 @@
+uuid: 02c52b5f-0779-4492-879a-612d7e4c24a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.vintage_video
+  module:
+    - file
+id: node.vintage_video.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: vintage_video
+label: Attachments
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'video/[date:custom:Y]'
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx pdf tif tiff eps bmp'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

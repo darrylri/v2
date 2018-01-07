@@ -5,8 +5,10 @@ dependencies:
   config:
     - field.field.node.blog.body
     - field.field.node.blog.field_attachments
+    - field.field.node.blog.field_replies
     - node.type.blog
   module:
+    - comment
     - file
     - path
     - text
@@ -36,6 +38,12 @@ content:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
+    region: content
+  field_replies:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   path:
     type: path

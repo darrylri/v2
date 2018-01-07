@@ -1,21 +1,20 @@
-uuid: dbb808b5-9542-4068-93c5-39be48964519
+uuid: b75eacec-4efc-44a2-ae9e-7549f5c7ac3a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.gallery.body
-    - field.field.node.gallery.field_images
-    - field.field.node.gallery.field_replies
-    - image.style.thumbnail
-    - node.type.gallery
+    - field.field.node.vintage_video.body
+    - field.field.node.vintage_video.field_attachments
+    - field.field.node.vintage_video.field_video
+    - node.type.vintage_video
   module:
-    - comment
-    - image
+    - file
     - path
     - text
-id: node.gallery.default
+    - video_embed_field
+id: node.vintage_video.default
 targetEntityType: node
-bundle: gallery
+bundle: vintage_video
 mode: default
 content:
   body:
@@ -33,19 +32,18 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_images:
-    weight: 122
+  field_attachments:
+    weight: 123
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: image_image
+    type: file_generic
     region: content
-  field_replies:
-    weight: 123
+  field_video:
+    weight: 122
     settings: {  }
     third_party_settings: {  }
-    type: comment_default
+    type: video_embed_field_textfield
     region: content
   path:
     type: path

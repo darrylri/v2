@@ -1,0 +1,27 @@
+uuid: 2d9d9029-a955-4d5b-b366-eb8cdd92e628
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.cbm_issue
+  module:
+    - file
+id: node.cbm_issue.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: cbm_issue
+label: Attachments
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'cbm/[date:custom:Y]'
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx pdf tif tiff eps bmp'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

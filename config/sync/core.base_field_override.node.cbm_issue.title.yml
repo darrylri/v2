@@ -1,0 +1,18 @@
+uuid: 4b74a544-a69e-4ca6-9052-4de2c6c0ce7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cbm_issue
+id: node.cbm_issue.title
+field_name: title
+entity_type: node
+bundle: cbm_issue
+label: 'Issue name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

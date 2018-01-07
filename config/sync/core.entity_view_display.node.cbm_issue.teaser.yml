@@ -1,0 +1,28 @@
+uuid: ca45368c-5d3e-4864-ab17-e98cd33145ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cbm_issue.body
+    - node.type.cbm_issue
+  module:
+    - text
+    - user
+id: node.cbm_issue.teaser
+targetEntityType: node
+bundle: cbm_issue
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

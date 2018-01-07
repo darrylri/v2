@@ -3,10 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.gallery.body
     - field.field.node.gallery.field_images
+    - field.field.node.gallery.field_replies
     - node.type.gallery
   module:
+    - comment
     - image
     - text
     - user
@@ -30,6 +33,15 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_replies:
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
     region: content
   links:
     weight: 100

@@ -1,0 +1,28 @@
+uuid: 6b4b4c27-3d17-4a99-aea0-fa2fcb1a576a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vintage_video.body
+    - node.type.vintage_video
+  module:
+    - text
+    - user
+id: node.vintage_video.teaser
+targetEntityType: node
+bundle: vintage_video
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,54 @@
+uuid: 02d3552c-34e6-4120-bed3-5b349e55bcc8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lsq7CCJzksStQnpe29IRhgVTcffcRRrnUDgYxyhvkDM
+id: vbmw_comment
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 6'
+migration_group: null
+label: Comments
+source:
+  plugin: vbmw_comment
+  constants:
+    entity_type: node
+process:
+  cid: cid
+  pid:
+    plugin: migration_lookup
+    migration: vbmw_comment
+    source: pid
+  entity_id: nid
+  entity_type: constants/entity_type
+  comment_type: comment
+  field_name: '@comment_type'
+  subject: subject
+  uid: uid
+  name: name
+  mail: mail
+  homepage: homepage
+  hostname: hostname
+  created: timestamp
+  changed: timestamp
+  status: status
+  thread: thread
+  comment_body/value: comment
+  comment_body/format:
+    plugin: migration_lookup
+    migration: d6_filter_format
+    source: format
+  field_attachments: fids
+destination:
+  plugin: 'entity:comment'
+migration_dependencies:
+  required:
+    - d6_node
+    - d6_comment_type
+    - d6_comment_entity_display
+    - d6_comment_entity_form_display
+    - d6_user
+    - d6_filter_format

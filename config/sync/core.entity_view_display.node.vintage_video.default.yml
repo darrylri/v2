@@ -1,20 +1,20 @@
-uuid: 6fb0b7e7-717b-4816-a36d-befd027f1a28
+uuid: 7110df36-779f-4c05-952b-c73c578b6232
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.blog.body
-    - field.field.node.blog.field_attachments
-    - field.field.node.blog.field_replies
-    - node.type.blog
+    - field.field.node.vintage_video.body
+    - field.field.node.vintage_video.field_attachments
+    - field.field.node.vintage_video.field_video
+    - node.type.vintage_video
   module:
-    - comment
     - file
     - text
     - user
-id: node.blog.default
+    - video_embed_field
+id: node.vintage_video.default
 targetEntityType: node
-bundle: blog
+bundle: vintage_video
 mode: default
 content:
   body:
@@ -25,20 +25,22 @@ content:
     third_party_settings: {  }
     region: content
   field_attachments:
-    weight: 102
+    weight: 103
     label: above
     settings: {  }
     third_party_settings: {  }
     type: file_table
     region: content
-  field_replies:
-    weight: 103
-    label: above
+  field_video:
+    weight: 102
+    label: hidden
     settings:
-      view_mode: default
-      pager_id: 0
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: false
     third_party_settings: {  }
-    type: comment_default
+    type: video_embed_field_video
     region: content
   links:
     weight: 100

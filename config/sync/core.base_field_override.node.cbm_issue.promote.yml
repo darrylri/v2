@@ -1,0 +1,22 @@
+uuid: 18c514de-d3da-4a04-b76f-ade443ef01cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cbm_issue
+id: node.cbm_issue.promote
+field_name: promote
+entity_type: node
+bundle: cbm_issue
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

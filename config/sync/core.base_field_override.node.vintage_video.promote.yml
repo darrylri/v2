@@ -1,0 +1,22 @@
+uuid: e9d86f2a-2e14-42d2-bfe4-b378e448498c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.vintage_video
+id: node.vintage_video.promote
+field_name: promote
+entity_type: node
+bundle: vintage_video
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

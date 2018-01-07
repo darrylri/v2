@@ -1,0 +1,78 @@
+uuid: 4dfbfacd-15ea-4c57-9432-7e683e281af1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cbm_issue.body
+    - field.field.node.cbm_issue.field_attachments
+    - field.field.node.cbm_issue.field_cover_image
+    - field.field.node.cbm_issue.field_magazine_number
+    - field.field.node.cbm_issue.field_magazine_volume
+    - field.field.node.cbm_issue.field_toc_image
+    - node.type.cbm_issue
+  module:
+    - file
+    - image
+    - text
+    - user
+id: node.cbm_issue.default
+targetEntityType: node
+bundle: cbm_issue
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attachments:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_cover_image:
+    weight: 3
+    label: inline
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_magazine_number:
+    weight: 2
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_magazine_volume:
+    weight: 1
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_toc_image:
+    weight: 4
+    label: inline
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

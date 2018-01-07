@@ -1,0 +1,22 @@
+uuid: 58ffd93c-166c-4857-aa92-cab700ce874a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.vintage_video
+  module:
+    - text
+id: node.vintage_video.body
+field_name: body
+entity_type: node
+bundle: vintage_video
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

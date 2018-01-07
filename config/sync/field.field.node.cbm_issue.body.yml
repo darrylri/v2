@@ -1,0 +1,22 @@
+uuid: d267af55-5fef-484c-a12e-2a096671cf35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cbm_issue
+  module:
+    - text
+id: node.cbm_issue.body
+field_name: body
+entity_type: node
+bundle: cbm_issue
+label: 'Issue Contents'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
