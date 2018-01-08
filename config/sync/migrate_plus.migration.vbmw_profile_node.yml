@@ -1,0 +1,106 @@
+uuid: 18c33b7a-a2ce-4a5f-8f7f-f98a286234ac
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6tG6LqlidJVhzp6wvTo7tW3OScEthmpw2a7j7CKl8Iw
+id: vbmw_profile_node
+class: Drupal\user\Plugin\migrate\ProfileValues
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 6'
+migration_group: vbmw_migrate
+label: Profiles
+source:
+  plugin: d6_node
+  node_type: profile
+  constants:
+    bundle: vbmwmo_membership_profile
+process:
+  uid: node_uid
+  type: constants/bundle
+  field_vbmwmo_membership_number:
+    -
+      plugin: skip_on_empty
+      source: field_memnumber/0/value
+      method: row
+    -
+      plugin: get
+      source: field_memnumber
+  field_membership_status: field_memstatus
+  field_expiry_date:
+    plugin: iterator
+    source: field_memexpiry
+    process:
+      value:
+        plugin: month_date
+        source: value
+  field_title:
+    plugin: iterator
+    source: field_title
+    process:
+      value:
+        -
+          plugin: callback
+          callable: strtolower
+          source: value
+        -
+          plugin: callback
+          callable: ucwords
+  field_first_name:
+    plugin: iterator
+    source: field_first_name
+    process:
+      value:
+        -
+          plugin: callback
+          callable: strtolower
+          source: value
+        -
+          plugin: callback
+          callable: ucwords
+  field_middle_name:
+    plugin: iterator
+    source: field_middle_name
+    process:
+      value:
+        -
+          plugin: callback
+          callable: strtolower
+          source: value
+        -
+          plugin: callback
+          callable: ucwords
+  field_last_name:
+    plugin: iterator
+    source: field_last_name
+    process:
+      value:
+        -
+          plugin: callback
+          callable: strtolower
+          source: value
+        -
+          plugin: callback
+          callable: ucwords
+  field_suffix: field_suffix
+  field_mailing_address:
+    plugin: d6_addressfield
+    country_code: field_country
+    administrative_area: field_state
+    locality: field_city
+    postal_code: field_zip
+    address_line1: field_address1
+    address_line2: field_address2
+  field_plain_phone: field_phone
+  field_about_me/value: body
+  field_about_me/format:
+    plugin: migration_lookup
+    migration: vbmw_filter_format
+    source: format
+destination:
+  plugin: 'entity:profile'
+migration_dependencies:
+  required:
+    - vbmw_user

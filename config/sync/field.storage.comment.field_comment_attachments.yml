@@ -1,0 +1,27 @@
+uuid: a8a2af57-1941-4bdf-bfe0-fb8d607b93a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - field_permissions
+    - file
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: comment.field_comment_attachments
+field_name: field_comment_attachments
+entity_type: comment
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

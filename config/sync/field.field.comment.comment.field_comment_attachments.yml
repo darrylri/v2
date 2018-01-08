@@ -1,0 +1,27 @@
+uuid: 02a3ead9-54ea-4ab2-a378-17f087931ecc
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.field_comment_attachments
+  module:
+    - file
+id: comment.comment.field_comment_attachments
+field_name: field_comment_attachments
+entity_type: comment
+bundle: comment
+label: Attachments
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'discussions/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'jpg jpeg gif png txt doc docx xls xlsx pdf tif tiff eps bmp'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

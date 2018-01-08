@@ -1,0 +1,72 @@
+uuid: 4b47127b-2cf5-4865-8f9a-e606defb679f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jCpRN8BQXDXmty9TpVrmRo2xbYck0RpeB9FglQ_LvSw
+id: vbmw_node_resources
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 6'
+migration_group: vbmw_migrate
+label: 'Migrate D6 resource4 links to resource links'
+source:
+  plugin: vbmw_node_location
+  node_type: resource_link
+  constants:
+    bundle: resource_link
+process:
+  type: constants/bundle
+  nid: tnid
+  vid: vid
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  title: title
+  uid: node_uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  body/format:
+    plugin: migration_lookup
+    migration: vbmw_filter_format
+    source: format
+  body/value: body
+  body/summary: teaser
+  field_resource_type: tids
+  field_attachments: fids
+  field_contact_information: field_resource_contact
+  field_website_link:
+    -
+      plugin: extract
+      source: field_resource_url
+      default: ''
+      index:
+        - 0
+        - value
+    -
+      plugin: d6_build_link
+  field_email:
+    plugin: extract
+    source: field_resource_email
+    default: ''
+    index:
+      - 0
+      - email
+  field_map_location/lat: latitude
+  field_map_location/lng: longitude
+  field_event_address/country_code: country
+  field_event_address/postal_code: postal_code
+  field_event_address/administrative_area: province
+  field_event_address/locality: city
+  field_event_address/organization: name
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required:
+    - vbmw_filter_format
